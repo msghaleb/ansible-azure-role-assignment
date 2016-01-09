@@ -7,3 +7,5 @@
     tenant_domain         : "{{ azure_role_assignment_tenant_domain | default(omit) }}"
     subscription_id       : "{{ azure_role_assignment_subscription_id | default(omit) }}"
     role_definition_name  : "{{ azure_role_assignment_role_definition_name | default(omit) }}"
+    client_id             : "{{ azure_role_assignment_client_id | default(omit) }}"
+    client_secret         : "{{ azure_role_assignment_client_secret | default(omit) }}"
